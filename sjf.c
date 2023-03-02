@@ -28,7 +28,7 @@ void atsort(int a[],int b[],int n)
 			pos = i;
 		}
 	}
-	if(a[pos]>a[0])
+	if(a[pos] >= a[0])
 	{
 		int t,t1;
 		for(int i=1; i<n-1;i++)
